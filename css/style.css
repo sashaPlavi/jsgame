@@ -36,6 +36,7 @@ body {
   cursor: pointer;
   outline: none;
   border: none;
+  margin-bottom: 1rem;
 }
 .restart-btn:hover {
   background: var(--primary-color);
@@ -109,7 +110,7 @@ body {
 .text-lose {
   color: var(--lose-color);
 }
-@keyframes {
+@keyframes modalopen {
   from {
     opacity: 0;
   }
